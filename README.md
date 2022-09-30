@@ -1,6 +1,11 @@
 # community-website
 This is a website building repository where everyone can contribute by adding PRs and solving issues for Hacktoberfest 2022!!
 
+
+
+## Theme:
+The theme for this website is a casual food service webpage. Make a website for a local fast food shop.
+
 ## Rules:
 1. Don't spam unnecessary PRs and make the hacktoberfest's experience troublesome for others <br>
 2. Contribute to the issues marked for Hacktoberfest. Please refrain from contributing/solving the issues tagged as 'Work in Progress'. <br>

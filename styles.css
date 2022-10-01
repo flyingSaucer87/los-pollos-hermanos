@@ -1,0 +1,35 @@
+body {
+    color: white;
+    font-weight: 600;
+}
+
+.main {
+    height: 1000px;
+    width: 100%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
+    background-size: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: url(commonfilters.svg#filter);
+    backdrop-filter: url(commonfilters.svg#filter);
+    -webkit-backdrop-filter: opacity(10%);
+    backdrop-filter: opacity(10%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-repeat:no-repeat;
+    border-image-width: 100%;
+}
+
+/* .bgimg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* position: relative; */
+} */
+
+.btn {
+    border: none;
+    background-color:blue;
+    color: gold;
+    cursor: pointer;
+}

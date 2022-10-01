@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <title>Los Pollos Hermanos</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap"
+    rel="stylesheet">
+
 </head>
-       
-<body style="background-color: #E1FFB1">
+
+<body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><b>Los Pollos Hermanos</b></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Los Pollos Hermanos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -24,9 +29,12 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link active" href="#Menu">About</a>
           </li>
-          
+          <li>
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -35,57 +43,56 @@
       </div>
     </div>
   </nav>
-  <div class="main">
-    <h1 align="center"><b> Welcome to Los Pollos Hermanos!</b></h1>
-    <button class="btn">Order food now!</button>
-    <button class="btn">Contact Us</button>
-  </div>
-  <button style="background-color: rgb(227, 154, 58)" type="button" onclick="alert('This is the Menu')">Menu</button>
-<br>  
-  <img align="left" src="https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg" alt="bgimg" class="bgimg" height="400" width="600">
-<p align="center"><font size="5"><i> The finest ingredients are brought together with love and care, then slow cooked to perfection. Yes, the old ways are still best at Los Pollos Hermanos</i></font> </p>
-<br>
-<br>
-
-  <p align="center"><font size="5"> But don't take my word for it.<b> One taste, and you'll know!</b></font> </p>
-<br>
-<img align="right" src="https://d4t7t8y8xqo0t.cloudfront.net/resized/1080X/restaurant%2F115441%2Fmenu%2F115441_1.jpg" width="900" height="800">
-  <br>
-  <img src="https://i.pinimg.com/originals/91/a7/eb/91a7eb8e343f85bc73dc19e9bcd1bdd3.jpg">
-<br>
-<b>Mr. Gustavo Fring, owner, Los Pollos Hermanos</b>
-<br>
-<br>
 
 
-<section id="contact">
-  <h1 class="h-primary center">Contact Us</h1>
-  <div id="contact-box">
+  <section id="main">
+    <h1 class="h-primary">Welcome to Los Pollos Hermanos</h1>
+    <p>Order Your Favourite Food Now</p>
+    <button class="btn">Order here</button>
+  </section>
+
+  <Section id="Menu">
+    <h1 class="h-primary center">Our Secret steps of receipes </h1>
+    <p align="center"> The finest ingredients are brought together with love and care, then slow cooked to perfection.
+      Yes, the old ways are still best at Los Pollos Hermanos </p>
+    <p align="center"> The finest ingredients are brought together with love and care, then slow cooked to perfection.
+      Yes, the old ways are still best at Los Pollos Hermanos </p>
+    <p align="center"> But don't take my word for it. One taste, and you'll know! </p>
+    <img src="https://d4t7t8y8xqo0t.cloudfront.net/resized/1080X/restaurant%2F115441%2Fmenu%2F115441_1.jpg" width="400" height="400" style="vertical-align:middle;margin:0px 500px">
+
+    <br>
+    <br>
+
+    <img src="https://i.pinimg.com/originals/91/a7/eb/91a7eb8e343f85bc73dc19e9bcd1bdd3.jpg" style="vertical-align:middle;margin:0px 530px">
+    <br>
+    <p align="center">Mr. Gustavo Fring, owner, Los Pollos Hermanos</p>
+  </Section>
+
+  <section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
       <form action="">
-          <div class="form-group">
-              <label form="name">Name: </label>
-              <input type="text" name="name" id="name" placeholder="Enter your name">
-          </div>
-<br>
-          <div class="form-group">
-              <label form="email">Email: </label>
-              <input type="email" name="name" id="email" placeholder="Enter your email">
-          </div>
-<br>
-          <div class="form-group">
-              <label form="phone">Phone Number: </label>
-              <input type="phone" name="name" id="phone" placeholder="Enter your phone">
-          </div>
-<br>
-          <div class="form-group">
-              <label form="message">Message: </label>
-              <textarea name="message" id="message" cols="30" rows="2"></textarea>
-          </div>
+        <div class="form-group">
+          <label form="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label form="email">Email: </label>
+          <input type="email" name="name" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label form="phone">Phone Number: </label>
+          <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+        </div>
+        <div class="form-group">
+          <label form="message">Message: </label>
+          <textarea name="message" id="message" cols="20" rows="10"></textarea>
+        </div>
       </form>
-  </div>
-</section>
+    </div>
+  </section>
 
-  
+
 </body>
 
 </html>

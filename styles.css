@@ -26,14 +26,6 @@ body {
     z-index: 0;
     /* position: relative; */
 */
-
-.btn {
-    border: none;
-    background-color:blue;
-    color: gold;
-    cursor: pointer;
-}
-
 #contact{
     position: relative;
 
@@ -78,11 +70,55 @@ body {
 .h-primary {
     font-size: 2.5rem;
     color: black;
-    padding: 35px;
+    padding: 60px;
     font-family: 'Bree Serif', serif;
-
 }
 
 .center {
     text-align: center;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient( to bottom right, rgb(134, 67, 221),rgb(53, 210, 134));
+  }
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 404px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main::before {
+    content: "";
+    background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 50px;
+    height: 88%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#main p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+
 }

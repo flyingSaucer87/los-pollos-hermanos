@@ -1,22 +1,74 @@
 body {
-    color: white;
-    font-weight: 600;
+  color: white;
+  font-weight: 600;
+  font-family: "Regulators", san-serief;
+  box-sizing: border-box;
 }
 
 .main {
-    height: 1000px;
-    width: 100%;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
-    background-size: 100%;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: url(commonfilters.svg#filter);
-    backdrop-filter: url(commonfilters.svg#filter);
-    -webkit-backdrop-filter: opacity(10%);
-    backdrop-filter: opacity(10%);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background-repeat:no-repeat;
-    border-image-width: 100%;
+  height: 16rem;
+  width: 100%;
+}
+
+.main-content {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main h1 {
+  color: #a92224;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  display: inline-block;
+}
+
+.main::before {
+  content: "";
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 24rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.menu p {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.menu-flex {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menu-img {
+  width: 80%;
+  height: auto;
+}
+
+.owner-flex {
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  display: flex;
+}
+
+.owner-flex p {
+  font-size: 1.8rem;
+}
+
+.owner-img {
+  width: 20%;
+  height: auto;
 }
 
 .heading {
@@ -28,14 +80,14 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     z-index: 0;
-    /* position: relative; */
-*/
+    position: relative;
+} */
 
 .btn {
-    border: none;
-    background-color:blue;
-    color: gold;
-    cursor: pointer;
+  border: none;
+  background-color: blue;
+  color: gold;
+  cursor: pointer;
 }
 
 .row:after {
@@ -52,52 +104,55 @@ body {
 #contact{
     position: relative;
 
+.logo-img {
+  width: 40%;
 }
 
-#contact::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    z-index: -1;
-    position: absolute;
-    background: url(../contact-us.jpg) no-repeat center center/cover;
-
+#contact {
+  position: relative;
 }
 
-#contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 34px;
+#contact::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+  position: absolute;
+  background: url(../contact-us.jpg) no-repeat center center/cover;
 }
 
-#contact-box form{
-    width: 40%;
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
 }
 
-#contact-box label{
-    color: black;
-    font-size: 1.3rem;
-    font-family: 'Bree Serif', serif;
+#contact-box form {
+  width: 40%;
+}
 
+#contact-box label {
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
 }
 
 #contact-box input,
-#contact-box textarea{
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 6px;
-    font-size: 0.9rem;
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 .h-primary {
-    font-size: 2.5rem;
-    color: black;
-    padding: 35px;
-    font-family: 'Bree Serif', serif;
-
+  font-size: 2.5rem;
+  color: black;
+  padding: 35px;
+  font-family: "Bree Serif", serif;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }

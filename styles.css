@@ -82,9 +82,10 @@ body {
     z-index: 0;
 
     /* position: relative; */
-*/
+/*
     position: relative;
-} */
+}  
+*/
 
 .btn {
   border: none;
@@ -107,7 +108,7 @@ body {
 
 #contact{
     position: relative;
-
+}
 .logo-img {
   width: 40%;
 }
@@ -143,8 +144,7 @@ body {
   font-family: "Bree Serif", serif;
 }
 
-#contact-box input,
-#contact-box textarea {
+#contact-box input, #contact-box textarea {
   width: 100%;
   padding: 0.5rem;
   border-radius: 6px;
@@ -204,7 +204,7 @@ body {
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 
-}
+
   font-size: 2.5rem;
   color: black;
   padding: 35px;
@@ -213,4 +213,8 @@ body {
 
 .center {
   text-align: center;
+}
+#footer{
+ background-color: grey;
+ color: black;
 }

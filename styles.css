@@ -215,6 +215,28 @@ body {
   text-align: center;
 }
 #footer{
- background-color: grey;
- color: black;
+  font-family: 'Courier New', Courier, monospace;
+ background-color: black;
+ color: white;
+ padding-bottom: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.pollos{
+  padding-top: 40px;
+  text-align: center;
+}
+.pollos2{
+  text-align: center;
+  text-decoration: underline;
+}
+.para{
+  padding-top: 20px;
+  text-align: center;
+}
+#img2{
+  padding-top: 2rem;
+margin-left: 50rem;
+height: 5rem;
+width: 10rem;
 }

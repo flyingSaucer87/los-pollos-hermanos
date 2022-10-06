@@ -93,14 +93,7 @@ body {
   position: relative;
 }
 
-.btn {
-  border: none;
-  background-color: blue;
-  color: gold;
-  cursor: pointer;
-  margin: 0px;
-  text-transform: capitalize;
-}
+
 
 .row:after {
   display: table;
@@ -175,16 +168,7 @@ body {
   text-align: center;
 }
 
-.btn {
-  padding: 6px 20px;
-  border: 2px solid white;
-  background-color: brown;
-  color: white;
-  margin: 17px;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  cursor: pointer;
-}
+
 
 body {
   background-image: linear-gradient(
@@ -246,12 +230,6 @@ body {
   position: relative;
 }
 
-.btn {
-  border: none;
-  background-color: blue;
-  width: 50%;
-}
-
 #contact {
   position: relative;
 }
@@ -278,16 +256,7 @@ body {
   text-align: center;
 }
 
-.btn {
-  padding: 6px 20px;
-  border: 2px solid white;
-  background-color: brown;
-  color: white;
-  margin: 17px;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  cursor: pointer;
-}
+
 
 body {
   background-image: linear-gradient(

@@ -432,6 +432,20 @@ color: #24262b;
 background-color: #ffffff;
 }
 
+.owner-img {
+  border-radius: 25px;
+  display: flex;
+  position: relative;
+  margin-left: 3%;
+}
+
+.owner-intro {
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+}
+
 /*responsive*/
 @media (max-width: 767px) {
 .footer-col {

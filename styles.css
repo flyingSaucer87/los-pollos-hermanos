@@ -94,6 +94,7 @@ body {
   background-color: blue;
   color: gold;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .row:after {

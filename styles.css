@@ -3,6 +3,7 @@ body {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .main {
@@ -16,6 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.owner
 
 .main-content button {
   display: flex;
@@ -74,6 +76,8 @@ body {
 .owner-img {
   width: 20%;
   height: auto;
+  border-radius: 10rem;
+
 }
 
 .heading {
@@ -94,6 +98,7 @@ body {
   background-color: blue;
   color: gold;
   cursor: pointer;
+  margin: 0px;
   text-transform: capitalize;
 }
 

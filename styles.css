@@ -437,6 +437,13 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
+/* .send-btn{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 
 /*responsive*/
 @media (max-width: 767px) {
@@ -450,3 +457,4 @@ ul {
     width: 100%;
   }
 }
+

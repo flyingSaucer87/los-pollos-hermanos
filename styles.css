@@ -76,9 +76,13 @@ body {
 }
 
 .owner-img {
-  width: 20%;
+  width: 100vw;
   height: auto;
   border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .heading {

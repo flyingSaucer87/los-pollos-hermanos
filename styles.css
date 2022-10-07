@@ -79,6 +79,15 @@ ul {
   justify-content: center;
 }
 
+.menu-img {
+  width: 150%;
+  height: auto;
+}
+
+.logo{
+  width: 40px;
+}
+
 .owner-img {
   width: 20%;
   height: auto;

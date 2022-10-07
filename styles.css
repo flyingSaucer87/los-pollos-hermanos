@@ -89,8 +89,8 @@ ul {
 }
 
 .owner-img {
-    width: 30%;
-    height: auto;
+    width: 50%;
+    height: 50%;
     border-radius: 25px;
     display: flex;
     position: relative;

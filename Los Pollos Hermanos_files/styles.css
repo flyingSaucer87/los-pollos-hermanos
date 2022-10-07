@@ -1,8 +1,37 @@
+/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: white;
   font-weight: 600;
+  line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
 }
 
 .main {
@@ -14,10 +43,10 @@ body {
   padding-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content:space-between ;
+  justify-content: space-between;
 }
 
-.main-content button{
+.main-content button {
   display: flex;
   right: 10px;
 }
@@ -56,7 +85,7 @@ body {
 }
 
 .menu-img {
-  width: 860%;
+  width: 200%;
   height: auto;
 }
 
@@ -76,24 +105,12 @@ body {
   height: auto;
 }
 
-.heading {
-    -webkit-text-stroke: 1.5px black;
-
-}.bgimg {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    z-index: 0;
-
-    /* position: relative; */
-    position: relative;
-} 
-
-.btn {
-  border: none;
-  background-color: blue;
-  color: gold;
-  cursor: pointer;
+.bgimg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  position: relative;
 }
 
 .row:after {
@@ -106,12 +123,6 @@ body {
   width: -150cm;
 }
 
-
-
-
-#contact{
-    position: relative;
-}
 
 .logo-img {
   height: 100%;
@@ -130,7 +141,7 @@ body {
   opacity: 0.7;
   z-index: -1;
   position: absolute;
-  background: url(../contact-us.jpg) no-repeat center center/cover;
+  background: url("../contact-us.jpg") no-repeat center center/cover;
 }
 
 #contact-box {
@@ -157,138 +168,28 @@ body {
   border-radius: 6px;
   font-size: 0.9rem;
 }
-.h-primary {
-    font-size: 2.5rem;
-    color: black;
-    padding: 60px;
-    font-family:'Montserrat', sans-serif;
-}
 
-.center {
-    text-align: center;
-}
-
-.btn {
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    color: white;
-    margin: 17px;
-    font-size: 1.25rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-body {
-    background-image: linear-gradient( to bottom right, rgb(134, 67, 221),rgb(53, 210, 134));
-  }
-
-#main {
-    display: flex;
-    flex-direction: column;
-    height: 404px;
-    padding: 3px 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#main::before {
-    content: "";
-    background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg) no-repeat center center/cover;
-    position: absolute;
-    height: 50px;
-    height: 88%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.9;
-}
-
-#main p {
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Bree Serif', serif;
-  font-size: 2.5rem;
-  color: black;
-  padding: 35px;
-  font-family: "Bree Serif", serif;
-}
-
-.center {
-  text-align: center;
-}
-
-.heading {
-  -webkit-text-stroke: 1.5px black;
--webkit-text-stroke: 1.5px black;
-
-/* .bgimg {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: 0;
-  /* position: relative; */
-
-  position: relative;
-}
-
-.btn {
-border: none;
-background-color: blue;
-width: 50%;
-}
-
-
-
-#contact{
-  position: relative;
-}
-
-.logo-img {
-width: 40%;
-}
-.body {
-font-size: 0.9rem;
-}
 .h-primary {
   font-size: 2.5rem;
   color: black;
   padding: 60px;
-  font-family: 'Montserrat', sans-serif
-font-size: 2.5rem;
-color: black;
-padding: 60px;
-font-family: 'Montserrat', sans-serif;
-}
-
-.center {
-  text-align: center;
-text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .btn {
   padding: 6px 20px;
-  border: 2px solid white;
-  background-color: brown;
   color: white;
   margin: 17px;
   font-size: 1.25rem;
-  border-radius: 10px;
   cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #a92224;
+  width: 50%;
 }
-
-
-body {
-  background-image: linear-gradient( to bottom right, rgb(134, 67, 221),rgb(53, 210, 134));
-background-image: linear-gradient(
-  to bottom right,
-  rgb(134, 67, 221),
-  rgb(53, 210, 134)
-);
+.btn:hover{
+  background-color: blue;
 }
-
 #main {
   display: flex;
   flex-direction: column;
@@ -296,142 +197,36 @@ background-image: linear-gradient(
   padding: 3px 200px;
   justify-content: center;
   align-items: center;
-  display: flex;
-flex-direction: column;
-height: 404px;
-padding: 3px 200px;
-justify-content: center;
-align-items: center;
 }
-
 
 #main::before {
   content: "";
+  background: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg") no-repeat center center/cover;
   position: absolute;
-  height: 50px;
   height: 88%;
   width: 100%;
   top: 0px;
   left: 0px;
   z-index: -1;
   opacity: 0.9;
-content: "";
-background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg)
-  no-repeat center center/cover;
-position: absolute;
-height: 50px;
-height: 88%;
-width: 100%;
-top: 0px;
-left: 0px;
-z-index: -1;
-opacity: 0.9;
 }
 
 #main p {
   color: black;
   text-align: center;
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
-
-color: black;
-text-align: center;
-font-size: 1.5rem;
-font-family: 'Montserrat', sans-serif;
-font-size: 2.5rem;
-/* font-size: 2.5rem;
-color: black;
-padding: 35px;
-font-family: "Bree Serif", serif;
-}
-} */
+  font-size: 2.5rem;
+  padding: 35px;
+  font-family: "Bree Serif", serif;
 }
 
-.center {
-text-align: center;
+.heading {
+  -webkit-text-stroke: 1.5px black;
+  position: relative;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-body {
-line-height: 1.5;
-font-family: 'Montserrat', sans-serif;
+.logo-img {
+  width: 40%;
 }
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-.container {
-max-width: 1170px;
-margin: auto;
-}
-.row {
-display: flex;
-flex-wrap: wrap;
-}
-ul {
-list-style: none;
-}
-.footer {
-background-color: #24262b;
-padding: 70px 0;
-}
-.footer-col {
-width: 25%;
-padding: 0 15px;
-}
-.footer-col h4 {
-font-size: 18px;
-color: #ffffff;
-text-transform: capitalize;
-margin-bottom: 35px;
-font-weight: 500;
-position: relative;
-}
-.footer-col h4::before {
-content: "";
-position: absolute;
-left: 0;
-bottom: -10px;
-background-color: #e91e63;
-height: 2px;
-box-sizing: border-box;
-width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-margin-bottom: 10px;
-}
-.footer-col ul li a {
-font-size: 16px;
-text-transform: capitalize;
-color: #ffffff;
-text-decoration: none;
-font-weight: 300;
-color: #bbbbbb;
-display: block;
-transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-color: #ffffff;
-padding-left: 8px;
-}
-.footer-col .social-links a {
-display: inline-block;
-height: 40px;
-width: 40px;
-background-color: rgba(255, 255, 255, 0.2);
-margin: 0 10px 10px 0;
-text-align: center;
-line-height: 40px;
-border-radius: 50%;
-color: #ffffff;
-transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-color: #24262b;
-background-color: #ffffff;
-}
-
 .owner-img {
   border-radius: 25px;
   display: flex;
@@ -446,15 +241,86 @@ background-color: #ffffff;
   margin-left: 15%;
 }
 
+
+/* FOR FOOTER */
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
 /*responsive*/
 @media (max-width: 767px) {
-.footer-col {
-  width: 50%;
-  margin-bottom: 30px;
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
 }
-}
+
 @media (max-width: 574px) {
-.footer-col {
-  width: 100%;
-}
+  .footer-col {
+    width: 100%;
+  }
 }

@@ -87,6 +87,20 @@ ul {
 .logo{
   width: 40px;
 }
+.scp{
+  text-align: center;
+  padding: 8% 8% 0%;
+}
+.scp-1{
+  text-align: center;
+  padding-bottom: 0%;
+}
+p{
+  text-align: center;
+ color: #24262b;
+ font-size:1.3rem ;
+ padding-top: 3%;
+}
 
 .owner-img {
     width: 50%;
@@ -114,6 +128,7 @@ ul {
 .column {
   left: 404px;
   width: -150cm;
+  text-align: center;
 }
 .menu-btn:hover {
   background-color: #24262b;

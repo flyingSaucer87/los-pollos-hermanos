@@ -36,17 +36,17 @@ ul {
 
 /* SPECIFIC STYLES */
 
-/* .main {
+.main {
   height: 100%;
   width: 100%;
-} */
+}
 
-/* .main-content {
+.main-content {
   padding-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-} */
+}
 
 .owner .main-content button {
   display: flex;
@@ -179,10 +179,10 @@ ul {
 
 /* FOOTER STYLES */
 
-/* .footer { */
-  /* background-color: #24262b; */
-  /* padding: 70px 0; */
-/* } */
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
 .footer-col {
   width: 25%;
   padding: 0 15px;

@@ -77,7 +77,15 @@ body {
 }
 
 .heading {
-  -webkit-text-stroke: 1.5px black;
+  color:black;
+  font-family: serif;
+  font-size: 2.5rem;
+  text-align:center;
+  border:1px solid black;
+  background-color: white; 
+  
+  
+  
 }
 .bgimg {
   width: 100%;

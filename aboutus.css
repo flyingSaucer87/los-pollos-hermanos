@@ -6,6 +6,9 @@ body {
 
 .heading {
     padding: 20px;
+    text-align: center;
+    background-color:lightcyan;
+    color:black;
 }
 
 .content, .footer {
@@ -19,19 +22,22 @@ body {
     justify-content: center;
     text-decoration: none;
 }
-
-.box {
-    padding: 5px;
+.content{
+    text-align: center;
 }
+
+
 
 .box-news {
     margin-top: 5px;
+    text-align: center;
 }
 
 .box-news .container-form {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
 }
 
 
@@ -42,5 +48,42 @@ body {
     justify-content: center;
     margin-top: 20px;
 }
-
-
+.box {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.box2{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight:600;
+    display:flex;
+    flex-direction: row;
+    gap: 80px;
+    
+    
+}
+#one{
+    padding-left: 300px;
+    text-align: center;
+}
+a:hover{
+    color: azure;
+}
+.btn1{
+    background-color:lightcoral;
+    color:white;
+    padding: 6px 20px;
+    border: 2px solid white;
+    margin: 17px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#email{
+    font-size: medium;
+    font-weight: 500;
+    border: 1px;
+    border-radius: 3px;
+}

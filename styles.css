@@ -34,6 +34,18 @@ ul {
   list-style: none;
 }
 
+.header b:hover{
+  color: rgb(211, 211, 211);
+}
+.nav-link:hover{
+  background-color: #a92224;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 700px;
+  transition: 0.25s ease-out;
+}
+
 /* SPECIFIC STYLES */
 
 .main {
@@ -281,9 +293,15 @@ input[type="number"] {
     width: 50%;
     margin-bottom: 30px;
   }
+  .nav-link:hover{
+    width: 20%;
+  }
 }
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
+  }
+  .nav-link:hover{
+    width: 20%;
   }
 }

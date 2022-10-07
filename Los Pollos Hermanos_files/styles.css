@@ -16,6 +16,9 @@ body {
   background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1170px;
   margin: auto;

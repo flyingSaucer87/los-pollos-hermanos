@@ -56,7 +56,7 @@ body {
 }
 
 .menu-img {
-  width: 860%;
+  width: 150%;
   height: auto;
 }
 
@@ -65,6 +65,10 @@ body {
   justify-content: space-evenly;
   position: relative;
   display: flex;
+}
+
+.logo{
+  width: 40px;
 }
 
 .owner-flex p {

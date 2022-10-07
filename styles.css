@@ -1,10 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(134, 67, 221),
+    rgb(53, 210, 134)
+  );
+}
+
+/* GENERAL STYLES */
+.center {
   text-align: center;
 }
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+
+/* SPECIFIC STYLES */
 
 .main {
   height: 100%;
@@ -17,16 +47,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .owner .main-content button {
   display: flex;
   right: 10px;
-}
-
-.main h1 {
-  color: #a92224;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  display: inline-block;
 }
 
 .main::before {
@@ -50,9 +74,9 @@ body {
 }
 
 .menu-flex {
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
 
 .menu-img {
@@ -60,19 +84,8 @@ body {
   height: auto;
 }
 
-.owner-flex {
-  align-items: center;
-  justify-content: space-evenly;
-  position: relative;
-  display: flex;
-}
-
 .logo{
   width: 40px;
-}
-
-.owner-flex p {
-  font-size: 1.8rem;
 }
 
 .owner-img {
@@ -81,16 +94,11 @@ body {
   border-radius: 10rem;
 }
 
-.heading {
-  -webkit-text-stroke: 1.5px black;
-}
 .bgimg {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   z-index: 0;
-
-  /* position: relative; */
   position: relative;
 }
 
@@ -108,20 +116,14 @@ body {
   z-index: 10;
 }
 
-#contact {
-  position: relative;
-}
-
 .logo-img {
   height: 100%;
-  width: 100%;
   display: flex;
+  width: 40%;
 }
 
-#contact {
-  position: relative;
-}
 
+/* CONTACT FORM STYLES */
 #contact::before {
   content: "";
   width: 100%;
@@ -129,7 +131,7 @@ body {
   opacity: 0.7;
   z-index: -1;
   position: absolute;
-  background: url(../contact-us.jpg) no-repeat center center/cover;
+  background: url("../contact-us.jpg") no-repeat center center/cover;
 }
 
 #contact-box {
@@ -156,198 +158,27 @@ body {
   border-radius: 6px;
   font-size: 0.9rem;
 }
-.h-primary {
-  font-size: 2.5rem;
-  color: black;
-  padding: 60px;
-  font-family: "Montserrat", sans-serif;
-}
 
-.center {
-  text-align: center;
-}
-
-body {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
-}
-
-#main {
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
-}
-
-#main::before {
-  content: "";
-  background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg)
-    no-repeat center center/cover;
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
-}
-
-#main p {
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Bree Serif", serif;
-  font-size: 2.5rem;
-  color: black;
-  padding: 35px;
-  font-family: "Bree Serif", serif;
-}
-
-.center {
-  text-align: center;
+.contact-item {
+  align-self: flex-start;
+  padding-top: 0.6rem;
 }
 
 .heading {
   -webkit-text-stroke: 1.5px black;
-  -webkit-text-stroke: 1.5px black;
-
-  /* .bgimg {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: 0;
-  /* position: relative; */
-
   position: relative;
 }
 
-#contact {
-  position: relative;
-}
-
-.logo-img {
-  width: 40%;
-}
-.body {
-  font-size: 0.9rem;
-}
 .h-primary {
   font-size: 2.5rem;
   color: black;
   padding: 60px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  color: black;
-  padding: 60px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
-.center {
-  text-align: center;
-  text-align: center;
-}
 
-body {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
-}
+/* FOOTER STYLES */
 
-#main {
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
-}
-
-#main::before {
-  content: "";
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
-  content: "";
-  background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg)
-    no-repeat center center/cover;
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
-}
-
-#main p {
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  /* font-size: 2.5rem;
-color: black;
-padding: 35px;
-font-family: "Bree Serif", serif;
-}
-} */
-}
-
-.center {
-  text-align: center;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-body {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
-  max-width: 1170px;
-  margin: auto;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-ul {
-  list-style: none;
-}
 .footer {
   background-color: #24262b;
   padding: 70px 0;
@@ -380,6 +211,7 @@ ul {
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+/* FOR OTHER LINKS IN FOOTER */
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
@@ -394,6 +226,7 @@ ul {
   color: #ffffff;
   padding-left: 8px;
 }
+/* FOR SOCIAL MEDIA LINKS IN FOOTER */
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -410,12 +243,18 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
-/* .send-btn{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 
 /*responsive*/
 @media (max-width: 767px) {
@@ -429,19 +268,3 @@ ul {
     width: 100%;
   }
 }
-
-.contact-item {
-  align-self: flex-start;
-  padding-top: 0.6rem;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-

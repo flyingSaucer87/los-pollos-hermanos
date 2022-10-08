@@ -11,9 +11,13 @@ body {
   color: white;
   font-weight: 600;
   line-height: 1.5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
-  background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(134, 67, 221),
+    rgb(53, 210, 134)
+  );
 }
 
 .container {
@@ -106,7 +110,7 @@ ul {
   border-radius: 25px;
   display: flex;
   position: relative;
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 
 .owner-intro {
@@ -137,7 +141,7 @@ ul {
 .logo-img {
   display: flex;
   height: 100%;
-  width: 40%;
+  /* width: 40%; */
 }
 
 #contact {
@@ -145,13 +149,13 @@ ul {
 }
 
 #contact::before {
-  content: "";
+  /* content: "";
   width: 100%;
   height: 100%;
   opacity: 0.7;
   z-index: -1;
   position: absolute;
-  background: url("../contact-us.jpg") no-repeat center center/cover;
+  background: url("../contact-us.jpg") no-repeat center center/cover; */
 }
 
 #contact-box {
@@ -168,7 +172,7 @@ ul {
 #contact-box label {
   color: black;
   font-size: 1.3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #contact-box input,
@@ -197,7 +201,7 @@ ul {
   background-color: #a92224;
   width: 50%;
 }
-.btn:hover{
+.btn:hover {
   background-color: blue;
 }
 #main {
@@ -211,7 +215,8 @@ ul {
 
 #main::before {
   content: "";
-  background: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg") no-repeat center center/cover;
+  background: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg")
+    no-repeat center center/cover;
   position: absolute;
   height: 88%;
   width: 100%;
@@ -233,7 +238,6 @@ ul {
   -webkit-text-stroke: 1.5px black;
   position: relative;
 }
-
 
 /* FOR FOOTER */
 .footer {

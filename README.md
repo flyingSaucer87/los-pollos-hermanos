@@ -64,32 +64,38 @@ git checkout -b <your_branch_name>
 > 1. create a folder and add all code in that folder only.
 > 2. create a demo folder inside "Your Project" and add a gif of your project named demo.gif
 
-**9.** Track your changes:heavy_check_mark: .
+**9.** If you want, you can host the website locally in your machine to see the changes in real time.
+
+- If you're on Linux, you can set up the [LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04) stack.
+
+- Or you can simply use the VS Code [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). Details on how to set it up can be found [here](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/).
+
+**10.** Track your changes:heavy_check_mark: .
 
 ```
 git add . 
 ```
 
-**10.** Commit your changes .
+**11.** Commit your changes .
 
 ```
 git commit -m "Relevant message"
 ```
 
-**11.** Push the committed changes in your feature branch to your remote repo.
+**12.** Push the committed changes in your feature branch to your remote repo.
 
 ```
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`.
+**13.** To create a pull request, click on `compare and pull requests`.
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**14.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-**14.** Click on `Create Pull Request`.
+**15.** Click on `Create Pull Request`.
 
 
-**15.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
+**16.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 **Thank you for your interest in contributing to our Repo!🏼**
 

@@ -1,7 +1,7 @@
-
-
-
 .heading {
+
+  padding: 20px;
+  font-size: 55px;
     padding: 20px;
 
     text-align: center;
@@ -9,65 +9,79 @@
     color:black;
     font-size: 55px;
 }
-.who{
-    font-size: 40px
+.who {
+  font-size: 40px;
 }
 
-.cont{
-    display: flex;
-    padding: 0 120px;
+.cont {
+  display: flex;
+  padding: 0 120px;
 }
 
-.content, .footer {
-    padding: 20px;
-    width: 100%;
+.content,
+.footer {
+  padding: 20px;
+  width: 100%;
 }
-.left{
-    text-align: left;
-    padding: 70px 70px 70px 0;
+.left {
+  text-align: left;
+  padding: 70px 70px 70px 0;
 }
 
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.abtus-right{
-    padding-right:0;
+.abtus-right {
+  padding-right: 0;
 }
 
 .content .link-btn {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  text-decoration: none;
 }
 
 .content{
     text-align: center;
 
 .box {
-    padding: 50px;
+  padding: 50px;
 }
-#why-choose-us{
-    background: #FF5F6D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+#why-choose-us {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.why-choose{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: 0px;
-    row-gap: 60px;
-    width: 1200px;
-    margin: 60px auto 0;
+.why-choose {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 0px;
+  row-gap: 60px;
+  width: 1200px;
+  margin: 60px auto 0;
 }
 
 
 
 .box-news {
+  margin-top: 5px;
+}
+
+.box-news .container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
     margin-top: 5px;
     text-align: center;
 }
@@ -79,13 +93,12 @@
     flex-direction:column;
 }
 
-
 .credit {
-    font-size: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 .box {
     padding: 5px;

@@ -1,0 +1,43 @@
+.list-group-item {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      rgb(255, 255, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list-group-item:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+   background-position: 0;
+   border-radius: 20px;
+   transform: translateY(-5px);
+   box-shadow: 2px -1px 105px -23px rgba(37, 37, 37, 0.57);
+   -webkit-box-shadow: 2px -1px 105px -23px rgba(0,0,0,0.57);
+   -moz-box-shadow: 2px -1px 105px -23px rgba(0,0,0,0.57);
+   transform:scale(1.3);
+  }
+  
+  .list-group-item:hover::before{
+    width: 100%;
+  }
+  

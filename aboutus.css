@@ -1,37 +1,82 @@
 
-body {
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .heading {
     padding: 20px;
+
+    text-align: center;
+    background-color:lightcyan;
+    color:black;
+    font-size: 55px;
+}
+.who{
+    font-size: 40px
+}
+
+.cont{
+    display: flex;
+    padding: 0 120px;
 }
 
 .content, .footer {
     padding: 20px;
-    width: 100vw;
+    width: 100%;
+}
+.left{
+    text-align: left;
+    padding: 70px 70px 70px 0;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abtus-right{
+    padding-right:0;
 }
 
 .content .link-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-decoration: none;
 }
 
+.content{
+    text-align: center;
+
 .box {
-    padding: 5px;
+    padding: 50px;
 }
+#why-choose-us{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+.why-choose{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 0px;
+    row-gap: 60px;
+    width: 1200px;
+    margin: 60px auto 0;
+}
+
+
 
 .box-news {
     margin-top: 5px;
+    text-align: center;
 }
 
 .box-news .container-form {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
 }
 
 
@@ -42,5 +87,42 @@ body {
     justify-content: center;
     margin-top: 20px;
 }
-
-
+.box {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.box2{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight:600;
+    display:flex;
+    flex-direction: row;
+    gap: 80px;
+    
+    
+}
+#one{
+    padding-left: 300px;
+    text-align: center;
+}
+a:hover{
+    color: azure;
+}
+.btn1{
+    background-color:lightcoral;
+    color:white;
+    padding: 6px 20px;
+    border: 2px solid white;
+    margin: 17px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#email{
+    font-size: medium;
+    font-weight: 500;
+    border: 1px;
+    border-radius: 3px;
+}

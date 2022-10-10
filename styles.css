@@ -67,7 +67,7 @@ body {
   display: flex;
 }
 
-.logo{
+.logo {
   width: 40px;
 }
 
@@ -103,8 +103,8 @@ body {
   left: 404px;
   width: -150cm;
 }
-.menu-btn:hover {
-  background-color: #24262b;
+#menu-btn:hover {
+  background-color: #013755;
   z-index: 10;
 }
 
@@ -445,15 +445,13 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-#food--u--love{
+#food--u--love {
   margin-top: 5em;
 }
 
-.title---hun{
+.title---hun {
   color: black;
 }
-.card---hun{
+.card---hun {
   margin-left: 1rem;
 }
-
-

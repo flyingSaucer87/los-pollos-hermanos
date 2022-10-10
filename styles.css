@@ -455,3 +455,9 @@ input[type="number"] {
 .card---hun {
   margin-left: 1rem;
 }
+ 
+.collapse ul li a:hover {
+  color: #a92224 !important;
+  transition: all 0.3s ease;
+}
+

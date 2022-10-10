@@ -381,17 +381,26 @@ ul {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
-  display: block;
-  transition: all 0.3s ease;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    display: block;
+    transition: all 0.3s ease;
 }
-.footer-col ul li a:hover {
-  color: #ffffff;
+
+.footer-col .footer-links {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col .footer-links:hover {
+  color: #3d2323;
   padding-left: 8px;
 }
 .footer-col .social-links a {

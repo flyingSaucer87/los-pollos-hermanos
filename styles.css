@@ -94,6 +94,12 @@ body {
   position: relative;
 }
 
+.carousel-container {
+    background-color: rgb(134, 8, 206);
+    padding: 8px;
+    border-radius: 30%;
+    border: 2px solid white;
+}
 .row:after {
   display: table;
   clear: both;

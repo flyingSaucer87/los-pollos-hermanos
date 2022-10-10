@@ -11,12 +11,29 @@
 
 .who {
   font-size: 40px;
+
+  text-align: center;
+}
+.WAW{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  margin-right: 50px;
+}
+.link-btn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
   font-color: black;
 }
 
 .cont {
   display: flex;
-  padding: 0 120px;
+  padding: 0 5% ;
+
 }
 
 .content,

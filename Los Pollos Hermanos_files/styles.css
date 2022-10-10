@@ -191,10 +191,11 @@ ul {
 }
 
 .btn {
-  padding: 6px 20px;
+  padding: 15px 20px;
   color: white;
   margin: 17px;
   font-size: 1.25rem;
+  line-height: 1.35rem;
   cursor: pointer;
   border: none;
   border-radius: 10px;

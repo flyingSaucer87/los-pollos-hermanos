@@ -457,3 +457,7 @@ input[type="number"] {
 }
 
 
+.collapse  ul li a:hover{
+  color: #a92224 !important;
+  transition: all 0.5s;
+}

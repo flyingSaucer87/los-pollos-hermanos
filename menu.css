@@ -40,3 +40,10 @@
 .list-group-item:hover::before {
   width: 100%;
 }
+
+#button {
+  border-radius: 20px;
+  display: inline-block;
+  bottom: 2em;
+  width: 12em;
+}

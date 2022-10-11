@@ -1,97 +1,98 @@
 body {
-  color: white;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .main {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .main-content {
-  padding-top: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .owner .main-content button {
-  display: flex;
-  right: 10px;
+    display: flex;
+    right: 10px;
 }
 
 .main h1 {
-  color: #a92224;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  display: inline-block;
+    color: #a92224;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: inline-block;
 }
 
 .main::before {
-  content: "";
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
-  background-size: cover;
-  max-width: 100%;
-  height: 24rem;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75;
-  z-index: -1;
+    content: "";
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 24rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
 }
 
 .menu p {
-  color: black;
-  font-size: 1.2rem;
+    color: black;
+    font-size: 1.2rem;
 }
 
 .menu-flex {
-  align-items: center;
-  justify-content: center;
-  display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .menu-img {
-  width: 150%;
-  height: auto;
+    width: 150%;
+    height: auto;
 }
 
 .owner-flex {
-  align-items: center;
-  justify-content: space-evenly;
-  position: relative;
-  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
 }
 
 .logo {
-  width: 40px;
+    width: 40px;
 }
 
 .owner-flex p {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 .owner-img {
-  width: 20%;
-  height: auto;
-  border-radius: 10rem;
+    width: 20%;
+    height: auto;
+    border-radius: 10rem;
 }
 
 .heading {
-  -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1.5px black;
 }
-.bgimg {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: 0;
 
-  /* position: relative; */
-  position: relative;
+.bgimg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* position: relative; */
+    position: relative;
 }
 
 .carousel-container {
@@ -100,35 +101,38 @@ body {
     border-radius: 30%;
     border: 2px solid white;
 }
+
 .row:after {
-  display: table;
-  clear: both;
+    display: table;
+    clear: both;
 }
 
 .column {
-  left: 404px;
-  width: -150cm;
+    left: 404px;
+    width: -150cm;
 }
+
 #menu-btn:hover {
-  background-color: #013755;
-  z-index: 10;
+    background-color: #013755;
+    z-index: 10;
 }
 
 #contact {
-  position: relative;
+    position: relative;
 }
 
 .logo-img {
-  height: 100%;
-  width: 100%;
-  display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
 
 #contact {
-  position: relative;
+    position: relative;
 }
 
-#contact::before {
+
+/* #contact::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -136,192 +140,178 @@ body {
   z-index: -1;
   position: absolute;
   background: url(../contact-us.jpg) no-repeat center center/cover;
-}
+} */
 
 #contact-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
 }
 
 #contact-box form {
-  width: 40%;
+    width: 40%;
 }
 
 #contact-box label {
-  color: black;
-  font-size: 1.3rem;
-  font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 #contact-box input,
 #contact-box textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 6px;
-  font-size: 0.9rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
 }
+
 .h-primary {
-  font-size: 2.5rem;
-  color: black;
-  padding: 60px;
-  font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    padding: 60px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
+    background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
 }
 
 #main {
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 404px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 #main::before {
-  content: "";
-  background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg)
-    no-repeat center center/cover;
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
+    content: "";
+    background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 50px;
+    height: 88%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
 }
 
 #main p {
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Bree Serif", serif;
-  font-size: 2.5rem;
-  color: black;
-  padding: 35px;
-  font-family: "Bree Serif", serif;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Bree Serif", serif;
+    font-size: 2.5rem;
+    color: black;
+    padding: 35px;
+    font-family: "Bree Serif", serif;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .heading {
-  -webkit-text-stroke: 1.5px black;
-  -webkit-text-stroke: 1.5px black;
-
-  /* .bgimg {
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1.5px black;
+    /* .bgimg {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   z-index: 0;
   /* position: relative; */
-
-  position: relative;
+    position: relative;
 }
 
 #contact {
-  position: relative;
+    position: relative;
 }
 
 .logo-img {
-  width: 40%;
+    width: 40%;
 }
+
 .body {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
+
 .h-primary {
-  font-size: 2.5rem;
-  color: black;
-  padding: 60px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  color: black;
-  padding: 60px;
-  font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    padding: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    padding: 60px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .center {
-  text-align: center;
-  text-align: center;
+    text-align: center;
+    text-align: center;
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(134, 67, 221),
-    rgb(53, 210, 134)
-  );
+    background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
+    background-image: linear-gradient(to bottom right, rgb(134, 67, 221), rgb(53, 210, 134));
 }
 
 #main {
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  padding: 3px 200px;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 404px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 404px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 #main::before {
-  content: "";
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
-  content: "";
-  background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg)
-    no-repeat center center/cover;
-  position: absolute;
-  height: 50px;
-  height: 88%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  opacity: 0.9;
+    content: "";
+    position: absolute;
+    height: 50px;
+    height: 88%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    content: "";
+    background: url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 50px;
+    height: 88%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
 }
 
 #main p {
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  /* font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    /* font-size: 2.5rem;
 color: black;
 padding: 35px;
 font-family: "Bree Serif", serif;
@@ -330,62 +320,73 @@ font-family: "Bree Serif", serif;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .container {
-  max-width: 1170px;
-  margin: auto;
+    max-width: 1170px;
+    margin: auto;
 }
+
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 .footer {
-  background-color: #24262b;
-  padding: 70px 0;
+    background-color: #24262b;
+    padding: 70px 0;
 }
+
 .footer-col {
-  width: 25%;
-  padding: 0 15px;
+    width: 25%;
+    padding: 0 15px;
 }
+
 .footer-col ul {
-  padding: 0;
+    padding: 0;
 }
+
 .footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
+
 .footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
+
 .footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
@@ -405,26 +406,31 @@ ul {
     display: block;
     transition: all 0.3s ease;
 }
+
 .footer-col .footer-links:hover {
-  color: #3d2323;
-  padding-left: 8px;
+    color: #3d2323;
+    padding-left: 8px;
 }
+
 .footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
+
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+    color: #24262b;
+    background-color: #ffffff;
 }
+
+
 /* .send-btn{
   width: 100vw;
   display: flex;
@@ -432,47 +438,56 @@ ul {
   align-items: center;
 } */
 
+
 /*responsive*/
+
 @media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
+
 @media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
+    .footer-col {
+        width: 100%;
+    }
 }
 
 .contact-item {
-  align-self: flex-start;
-  padding-top: 0.6rem;
+    align-self: flex-start;
+    padding-top: 0.6rem;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input[type="number"] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 #food--u--love {
-  margin-top: 5em;
+    margin-top: 5em;
 }
 
 .title---hun {
-  color: black;
-}
-.card---hun {
-  margin-left: 1rem;
-}
- 
-.collapse ul li a:hover {
-  color: #a92224 !important;
-  transition: all 0.3s ease;
+    color: black;
 }
 
+.card---hun {
+    margin-left: 1rem;
+}
+
+.collapse ul li a:hover {
+    color: #a92224 !important;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        font-size: 18px;
+    }
+}

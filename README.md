@@ -93,6 +93,7 @@ Please use `Semantic Commits` while you commit your code changes. It helps revie
 feat: (adding new feature)
 fix: (bug fix for the user, not a fix to a build script)
 docs: (changes to the documentation)
+style: (formatting, missing semi colons, etc; no production code change)
 ```
 
 **Thank you for your interest in contributing to our Repo!🏼**

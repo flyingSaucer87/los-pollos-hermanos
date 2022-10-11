@@ -36,60 +36,65 @@ git clone https://github.com/<your_user_name>/community-website.git
 cd community-website
 ```
 
-**4.** Add a reference(remote) to the original repository.
-
-```
-git remote add upstream https://github.com/flyingSaucer87/community-website.git 
-```
-
-**5.** Check the remotes for this repository.
-
-```
-git remote -v
-```
-
-**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+**4.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
 git pull upstream main
 ```
 
-**7.** Create a new branch.
+**5.** Create a new branch.
 
 ```
 git checkout -b <your_branch_name>
 ```
 
-**8.** Perfom your desired changes to the code base.
+**6.** Perfom your desired changes to the code base.
 > 1. create a folder and add all code in that folder only.
 > 2. create a demo folder inside "Your Project" and add a gif of your project named demo.gif
 
-**9.** Track your changes:heavy_check_mark: .
+**7.** Track your changes:heavy_check_mark: .
 
 ```
 git add . 
 ```
 
-**10.** Commit your changes .
+**8.** Commit your changes. Use the format described in the [Semantic Comments](#semantic-commits) section.
 
 ```
 git commit -m "Relevant message"
 ```
 
-**11.** Push the committed changes in your feature branch to your remote repo.
+**9.** Rebase your branch. This will make sure there are no conflicts with other people's contributions.
+
+```
+git rebase main
+```
+
+**10.** Push the committed changes in your feature branch to your remote repo.
 
 ```
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`.
+**11.** To create a pull request, click on `compare and pull requests`.
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**12.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-**14.** Click on `Create Pull Request`.
+**13.** Click on `Create Pull Request`.
 
 
-**15.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
+**14.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
+
+### Semantic Commits
+
+Please use `Semantic Commits` while you commit your code changes. It helps reviewers to review the code and makes you a **better programmer**.
+
+```feat: (new feature for the user, not a new feature for build script)
+feat: (adding new feature)
+fix: (bug fix for the user, not a fix to a build script)
+docs: (changes to the documentation)
+style: (formatting, missing semi colons, etc; no production code change)
+```
 
 **Thank you for your interest in contributing to our Repo!🏼**
 

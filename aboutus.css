@@ -11,12 +11,29 @@
 
 .who {
   font-size: 40px;
+
+  text-align: center;
+}
+.WAW{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  margin-right: 50px;
+}
+.link-btn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
   font-color: black;
 }
 
 .cont {
   display: flex;
-  padding: 0 120px;
+  padding: 0 5% ;
+
 }
 
 .content,
@@ -47,6 +64,8 @@ footer .left {
   /* justify-content: center; */
   text-decoration: none;
 }
+
+
 
 .content {
   text-align: center;
@@ -83,6 +102,10 @@ footer .left {
     margin-top: 5px;
   }
 
+  .box-news h3 {
+    text-align: center;
+  }
+
   .box-news .container-form {
     display: flex;
     align-items: center;
@@ -109,20 +132,28 @@ footer .left {
   .box {
     padding: 5px;
     margin: 5px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .box2 {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+    padding: 10px 0px;
+    /* margin: 10px; */
     font-weight: 600;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 65px;
-
-
   }
+
+    .box2 a   {
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      text-align: center; 
+       /* margin: 0px auto;  */
+    }
 
   #one {
     padding-left: 300px;

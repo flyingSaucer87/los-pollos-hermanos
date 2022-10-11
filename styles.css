@@ -457,3 +457,13 @@ input[type="number"] {
 }
 
 
+.order-btn {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding: 10px; 
+  outline: none; 
+  border-radius: 5px;
+  border: none;
+    background-color: #a92224;
+    color: white;
+}

@@ -576,3 +576,16 @@ input[type="number"] {
     font-size: 18px;
   }
 }
+.show{
+  visibility: visible;
+}
+.dontshow{
+  visibility: hidden;
+}
+.myBtn{
+  display: flex;
+  height: 55px;
+  width: 55px;
+  justify-content: center;
+  align-items: center;
+}

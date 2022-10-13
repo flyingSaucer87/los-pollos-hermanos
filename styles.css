@@ -450,6 +450,31 @@ ul {
   align-items: center;
 } */
 
+.carousel-caption h2.fs-1, .carousel-caption a {transform: translateY(-200%);transition: all 1s ease;opacity: 0;}
+.carousel-caption a { transition-delay: 0.4s;}
+
+.carousel-item.active .carousel-caption h2.fs-1, .carousel-item.active .carousel-caption a {opacity: 1;transform: translateY(0);}
+
+.carousel-item img {
+    filter:brightness(0.5) contrast(1);
+}
+
+/*responsive*/
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
 .contact-item {
   align-self: flex-start;
   padding-top: 0.6rem;

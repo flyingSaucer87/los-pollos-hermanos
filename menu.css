@@ -1,9 +1,9 @@
 .list-group-item {
   background-image: linear-gradient(
     to right,
-    #54b3d6,
-    #54b3d6 50%,
-    rgb(255, 255, 255) 50%
+    #031116,
+    #00a0da 50%,
+    rgb(231, 236, 245) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -17,7 +17,7 @@
 
 .list-group-item:before {
   content: "";
-  background: #54b3d6;
+  background: #383c3d;
   display: block;
   position: absolute;
   bottom: -3px;

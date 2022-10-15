@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Los Pollos Hermanos</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -197,18 +196,6 @@
 
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand"
-                  href="file:///C:/Users/rohit%20singh/Documents/open%20src/community-website/main.html#">
-                  <img class="logo-img" src="./Los Pollos Hermanos_files/los pollos.png" alt="" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-            </nav>
             <div class="main">
               <div class="main-content">
                 <h1 align="center">
@@ -255,34 +242,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-white"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-white text-lg" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white text-lg" aria-current="page" href="./menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white text-lg" href="./aboutus.html">About</a>
-          </li>
-          <li>
-            <a class="nav-link active text-white text-lg" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        <form class="d-flex justify-content-center align-items-center" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <div class="btn btn-success">
-            <i class="fa fa-search"></i>
-          </div>
-        </form>
-      </div>
     </div>
   </nav>
   <!-- nav bar ends -->
-  <!-- Bottom to top button -->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
-  <!-- Bottom to top button -->
   <section id="carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -593,29 +555,6 @@
         </footer>
         <!--     footer section ends -->
         <!-- Bottom to Top button  -->
-        <script>
-            
-            let mybutton = document.querySelector('.myBtn');
-            function scrollvisi(){
-              let pageLen = window.pageYOffset;
-              let btnSize = mybutton.getBoundingClientRect().y;
-              console.log(pageLen);
-              if(pageLen> btnSize)
-              {
-                mybutton.classList.add('show');
-                mybutton.classList.remove('dontshow');
-              }
-              else{
-                mybutton.classList.add('dontshow');
-                mybutton.classList.remove('show');
-              }
-            }
-            
-            document.addEventListener('scroll', scrollvisi)
-            function topFunction() {
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
         <!-- Bottom to Top button -->
 </body>
 

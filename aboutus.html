@@ -170,7 +170,7 @@
           <div class="container p-3">
             <h3 class="text-white">SUBSCRIBE NOW</h3>
             <form action="#" method="Post" class="subscribe-form">
-              <input type="text" name="text" placeholder="Enter Your Email Id" />
+              <input type="email" name="email" id="newsletter-email" placeholder="Enter Your Email Id" />
               <button type="button" class="btn-danger"
                 style="padding: 10px; outline: none; border-radius: 5px; border: none;">
                 Subscribe<i class="fa fa-envelope" style="padding: 4px;"></i>
@@ -203,6 +203,18 @@
         }
       );
     });
+
+    document.getElementById("newsletter-email").addEventListener("input", function(event){
+      const emailElement = event.target;
+
+      if(emailElement.validity.typeMismatch){
+        emailElement.customValidity("Please enter a valid email address");
+        emailElement.reportValidity();
+      }
+      else{
+        emailElement.setCustomValidity("");
+      }
+    })
   </script>
 
   <!-- jquery cdn link  -->

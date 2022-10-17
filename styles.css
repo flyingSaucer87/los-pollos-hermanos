@@ -470,6 +470,15 @@ ul {
   filter: brightness(0.5) contrast(1);
 }
 
+.card-img-top {
+  overflow: hidden;
+}
+
+.food-image-decorate:hover {
+  transform: scale(1.1);
+  box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
 /*responsive*/
 
 @media (max-width: 767px) {
@@ -642,4 +651,3 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
 }
-

@@ -1,10 +1,12 @@
 .list-group-item {
-  background-image: linear-gradient(
-    to right,
-    rgb(255, 255, 255) 50%,
-    #2c3e50 50%,
-    #bdc3c7 50%
-  );
+  /*background-image: linear-gradient(
+  /*  to right,
+  /*  rgb(27, 224, 9) 50%,
+  /*  #0b0b0c 50%,
+  /*  #090909 50%
+  /*);*/
+  background-color: yellow;
+  
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -17,7 +19,7 @@
 
 .list-group-item:before {
   content: "";
-  background: rgb(255, 255, 255);
+  background: rgb(86, 228, 30);
   display: block;
   position: absolute;
   bottom: -3px;
@@ -29,6 +31,7 @@
 
 .list-group-item:hover {
   background-position: 0;
+  background-color: rgb(42, 215, 36);
   border-radius: 20px;
   transform: translateY(-3px);
   box-shadow: 2px -1px 105px -23px rgba(37, 37, 37, 0.57);
@@ -39,6 +42,7 @@
 
 .list-group-item:hover::before {
   width: 100%;
+  background-color: rgb(236, 16, 16);
 }
 
 /* ScrollBar */

@@ -145,7 +145,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 #contact-box form {

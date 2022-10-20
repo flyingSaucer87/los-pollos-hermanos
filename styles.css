@@ -427,7 +427,6 @@ ul {
   color: #3d2323;
   padding-left: 8px;
 }
-
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -444,6 +443,31 @@ ul {
 .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
+  transition: 0.3s ease;
+}
+.footer-links li a{
+  text-decoration: none;
+}
+.copyright{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.end-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-desc{
+  text-align: left;
+}
+.footer-desc p{
+  color:#fff;
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+  width: 90%;
 }
 
 /* .send-btn{

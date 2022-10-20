@@ -661,11 +661,17 @@ input[type="number"] {
 
 .site-footer
 {
+  margin: auto -5px;
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
 }
 .site-footer hr
 {

@@ -161,6 +161,7 @@ footer .left {
     text-align: center;
 }
 
+
 a:hover {
     color: azure;
 }
@@ -174,6 +175,9 @@ a:hover {
     font-size: 1.25rem;
     border-radius: 10px;
     cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(159, 18, 44);
 }
 
 #email {

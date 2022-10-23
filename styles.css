@@ -6,6 +6,12 @@ body {
   text-align: center;
 }
 .card-img-top:hover {
+  padding-left: 2px;
+  padding-right: 2px;
+  transform: scale(1.1);
+}
+
+.card-img-top:hover {
   transform: scale(1.5);
 }
 .main {
@@ -498,16 +504,28 @@ ul {
 }
 
 .card---hun {
+  padding: 1em;
+  border-radius: 1em;
   overflow: hidden;
+}
+.container text-center {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
 .food-image-decorate:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.2);
 }
 .card-body button:hover {
   background-color: #228be6;
   color: #fff;
+}
+#menu-card:hover {
+  transform: none;
 }
 
 /*responsive*/
@@ -546,10 +564,6 @@ input[type="number"] {
 
 .title---hun {
   color: black;
-}
-
-.card---hun {
-  margin-left: 1rem;
 }
 
 .order-btn {
@@ -600,7 +614,7 @@ input[type="number"] {
   }
 
   #contact .container .row {
-    margin: 20px;
+    margin: 10px 20px;
   }
 }
 

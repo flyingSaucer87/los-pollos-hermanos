@@ -1,3 +1,31 @@
+.container {
+  margin-top: 20px;
+}
+
+.container .chead {
+  color: rgb(231, 28, 92);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.row-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex-grow: 1;
+  background-color: #efebeb;
+  border-radius: 7px;
+  padding: 7px;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .row-box {
+    flex-direction: column;
+  }
+}
+
 .list-group-item {
   /*background-image: linear-gradient(
   /*  to right,
@@ -5,8 +33,8 @@
   /*  #0b0b0c 50%,
   /*  #090909 50%
   /*);*/
-  background-color: yellow;
-  
+  background-color: #111cf1;
+
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;

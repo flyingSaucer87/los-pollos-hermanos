@@ -371,11 +371,20 @@ ul {
   list-style: none;
 }
 
-.footer {
-  background-color: #24262b;
-  padding: 70px 0;
-}
+footer{
+  text-align: center;
+  
 
+
+}
+.footer-h5{
+  margin:0px;
+  padding-bottom: 10px;
+  text-shadow: #24262b;
+  text-shadow: 2px 2px 4px #ffffff;
+  color: #000000;
+  
+}
 .footer-col {
   width: 25%;
   padding: 0 15px;

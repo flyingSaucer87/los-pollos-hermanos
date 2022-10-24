@@ -1,6 +1,6 @@
 /* GENERAL STYLES */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -148,15 +148,17 @@ ul {
   position: relative;
 }
 
-#contact::before {
-  /* content: "";
+/* #contact::before { */
+
+/* content: "";
   width: 100%;
   height: 100%;
   opacity: 0.7;
   z-index: -1;
   position: absolute;
   background: url("../contact-us.jpg") no-repeat center center/cover; */
-}
+
+/* } */
 
 #contact-box {
   display: flex;
@@ -191,7 +193,6 @@ ul {
 }
 
 .btn {
-  padding: 15px 20px;
   color: white;
   margin: 17px;
   font-size: 1.25rem;
@@ -202,9 +203,11 @@ ul {
   background-color: #a92224;
   width: 50%;
 }
+
 .btn:hover {
   background-color: blue;
 }
+
 #main {
   display: flex;
   flex-direction: column;
@@ -241,6 +244,7 @@ ul {
 }
 
 /* FOR FOOTER */
+
 .footer {
   background-color: #24262b;
   padding: 70px 0;
@@ -310,27 +314,28 @@ ul {
 }
 
 #myBtn {
-  position: fixed; 
-  bottom: 10px; 
-  right: 20px; 
-  z-index: 99; 
-  border: none; 
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  border: none;
   outline: none;
-  background-color: darkgrey(0, 119, 255); 
-  color: black; 
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:35px;
+  background-color: darkgrey(0, 119, 255);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 #myBtn:hover {
-  background-color: rgb(254, 251, 251); /* Add a dark-grey background on hover */
+  background-color: rgb(254, 251, 251);
+  /* Add a dark-grey background on hover */
 }
 
-
 /*responsive*/
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

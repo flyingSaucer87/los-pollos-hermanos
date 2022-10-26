@@ -1,17 +1,33 @@
-.heading {
+.heading1 {
     padding: 20px;
     font-size: 55px;
     padding: 20px;
     text-align: center;
-    background-color: lightcyan;
-    color: black;
-    font-size: 55px;
+    background: #ff5f6d;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc371, #ff5f6d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc371, #ff5f6d);
+    color: white;
+    
+    
+}
+.text{
+    color:white;
+    text-align: left;
+    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+    
 }
 
 .who {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
+    color: white;
+    margin-left: 40px;
 }
+
 
 .WAW {
     display: flex;
@@ -20,19 +36,28 @@
 }
 
 .left {
-    margin-right: 50px;
-}
+    margin-left: 60px;
+    padding-left: 40px;
+   }
 
 .link-btn {
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     display: flex;
     color: black;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+.l1{
+    flex: 0 0 45%;
+    
 }
 
 .cont {
     display: flex;
-    padding: 0 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .content,
@@ -50,6 +75,8 @@ footer .left {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
+    padding-bottom: 60px;
 }
 
 .abtus-right {
@@ -138,6 +165,14 @@ footer .left {
     align-items: center;
     justify-content: center;
 }
+.under{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .box2 {
     padding: 10px 0px;
@@ -175,6 +210,7 @@ a:hover {
     font-size: 1.25rem;
     border-radius: 10px;
     cursor: pointer;
+   
 }
 .btn1:hover{
     background-color: rgb(159, 18, 44);
@@ -185,6 +221,9 @@ a:hover {
     font-weight: 500;
     border: 1px;
     border-radius: 3px;
+}
+.footer-link{
+    text-decoration: none;
 }
 
 .subscribe-form input {
@@ -225,7 +264,7 @@ a:hover {
     flex-direction: column-reverse;
   } */
     .about .content .WAW .cont .left {
-        margin: 10px 20px;
+        padding: 0px 0px;
     }
     .about .content .WAW .cont .right .abtus-right {
         width: auto;

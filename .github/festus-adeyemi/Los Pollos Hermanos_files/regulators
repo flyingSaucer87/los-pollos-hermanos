@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Regulators';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Regulators'), url('https://fonts.cdnfonts.com/s/2356/regv2.woff') format('woff');
+}
+@font-face {
+    font-family: 'Regulators Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Regulators Condensed'), url('https://fonts.cdnfonts.com/s/2356/regv2c.woff') format('woff');
+}
+@font-face {
+    font-family: 'Regulators Expanded';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Regulators Expanded'), url('https://fonts.cdnfonts.com/s/2356/regv2e.woff') format('woff');
+}
+@font-face {
+    font-family: 'Regulators Shadow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Regulators Shadow'), url('https://fonts.cdnfonts.com/s/2356/regv2s.woff') format('woff');
+}
+@font-face {
+    font-family: 'Regulators Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Regulators Italic'), url('https://fonts.cdnfonts.com/s/2356/regv2i.woff') format('woff');
+}
+
+

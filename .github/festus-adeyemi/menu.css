@@ -33,7 +33,7 @@
   /*  #0b0b0c 50%,
   /*  #090909 50%
   /*);*/
-  background-color: #00ABB3;
+  background-color: #111cf1;
 
   background-size: 200% 100%;
   background-position: -100%;
@@ -59,9 +59,8 @@
 
 .list-group-item:hover {
   background-position: 0;
-  background-color: #7978FF;
+  background-color: rgb(42, 215, 36);
   border-radius: 20px;
-  cursor: pointer;
   transform: translateY(-3px);
   box-shadow: 2px -1px 105px -23px rgba(37, 37, 37, 0.57);
   -webkit-box-shadow: 2px -1px 105px -23px rgba(0, 0, 0, 0.57);

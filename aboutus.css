@@ -9,8 +9,8 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffc371, #ff5f6d);
     color: white;
-    
-    
+
+
 }
 .text{
     color:white;
@@ -18,7 +18,7 @@
     padding-top: 20px;
     padding-top: 15px;
     padding-left: 40px;
-    
+
 }
 
 .who {
@@ -26,6 +26,46 @@
     text-align: left;
     color: white;
     margin-left: 40px;
+}
+
+/* scroll to top  */
+html {
+  scroll-behavior: smooth;
+}
+
+#scroll-top {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+
+}
+
+#scroll-top svg {
+  width: 50%;
+  pointer-events: none;
+  color: black;
+}
+
+#scroll-top:hover {
+  transform: scale(1);
+}
+
+#scroll-top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -51,7 +91,7 @@
 }
 .l1{
     flex: 0 0 45%;
-    
+
 }
 
 .cont {
@@ -210,7 +250,7 @@ a:hover {
     font-size: 1.25rem;
     border-radius: 10px;
     cursor: pointer;
-   
+
 }
 .btn1:hover{
     background-color: rgb(159, 18, 44);

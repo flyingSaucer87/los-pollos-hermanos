@@ -5,6 +5,19 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+/* 
+/* Center the loader */
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('assets/ChefLoading.gif') no-repeat center center;
+}
+
+
 .card-img-top:hover {
   padding-left: 2px;
   padding-right: 2px;

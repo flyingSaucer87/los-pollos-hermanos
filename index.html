@@ -72,6 +72,9 @@
          </svg>
        </a>
      </div>
+<body onload="myFunction()" style="background-color: #c1ff5ecb">
+  <div id="loader"></div>
+
   <!--     navbar begins  -->
   <nav class="navbar navbar-expand-lg bg-dark sticky-top">
     <div class="container-fluid" >
@@ -431,7 +434,7 @@
 
 
         <div class="contact-content">
-          <p style="font-size: 30px;">We are really happy for you choosing los pollos Hermanos Feel free to reach out to us any time we are eager to serve you </p>
+          <p style="font-size: 30px;">We are happy that you chose los pollos Hermanos. Feel free to reach out to us any time; we are eager to serve you </p>
           <a href="/contact.html" class="btn btn-primary">Contact us</a>
         </div>
     </div>
@@ -445,6 +448,8 @@
 
     <!--     footer section ends -->
     <!-- Bottom to Top button  -->
+     <!-- Scrolling button starts -->
+     
     <script>
       let mybutton = document.getElementById("myBtn");
       window.onscroll = function () { scrollFunction() };
@@ -459,6 +464,25 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
+
+    <!--scrolling button ends-->
+
+
+    <!--preloader starts-->
+    <script>
+      var myVar;
+    
+      function myFunction() {
+      myVar = setTimeout(showPage, 1750);
+      }
+    
+      function showPage() {
+      document.getElementById("loader").style.display = "none";
+      }
+    </script>
+
+    <!--preloader ends-->
+
     <!-- Bottom to Top button -->
     <script>
       AOS.init();

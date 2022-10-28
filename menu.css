@@ -20,6 +20,46 @@
   margin: 5px;
 }
 
+/* scroll to top  */
+html {
+  scroll-behavior: smooth;
+}
+
+#scroll-top {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+
+}
+
+#scroll-top svg {
+  width: 50%;
+  pointer-events: none;
+  color: black;
+}
+
+#scroll-top:hover {
+  transform: scale(1);
+}
+
+#scroll-top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .row-box {
     flex-direction: column;

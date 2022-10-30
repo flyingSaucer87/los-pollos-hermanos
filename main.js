@@ -73,7 +73,19 @@ class MainHeader extends HTMLElement {
   }
 }
 
+//--main header--
+class MainFooter extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+        oi
+      `
+    }
+  }
+  
+customElements.define('main-footer', MainFooter)
 customElements.define('main-header', MainHeader)
+
+
 
 
 
@@ -99,7 +111,10 @@ let mybutton = document.getElementById("scroll-top");
         document.documentElement.scrollTop = 0;
       }
 
-
+// footer component
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("current-year").innerHTML = year;
 
 
 AOS.init();

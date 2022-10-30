@@ -3,11 +3,10 @@
 This is a website building repository where everyone can contribute by adding PRs and solving issues for Hacktoberfest 2022!!
 </p>
 
-
-
-
 ## 📌Theme:
 <strong>The theme for this website is a casual food service webpage. Make a website for a local fast food shop.</strong>
+
+`Note: Tech stack being used: HTML, CSS, JavaScript, Bootstrap.`
 
 ## 📌Rules📜:
 1. Don't spam unnecessary PRs and make the hacktoberfest's experience troublesome for others <br>
@@ -46,44 +45,42 @@ git pull upstream main
 
 ```
 git checkout -b <your_branch_name>
+try to keep branch name relevant to your contribution, e.g. git checkout -b fix-aboutPagePadding
 ```
 
-**6.** Perfom your desired changes to the code base.
-> 1. create a folder and add all code in that folder only.
-> 2. create a demo folder inside "Your Project" and add a gif of your project named demo.gif
-
-**7.** Track your changes:heavy_check_mark: .
+**6.** Track your changes:heavy_check_mark: .
 
 ```
 git add . 
 ```
 
-**8.** Commit your changes. Use the format described in the [Semantic Comments](#semantic-commits) section.
+**7.** Commit your changes. Use the format described in the [Semantic Comments](#semantic-commits) section.
 
 ```
 git commit -m "Relevant message"
 ```
 
-**9.** Rebase your branch. This will make sure there are no conflicts with other people's contributions.
+**8.** Rebase your branch. This will make sure there are no conflicts with other people's contributions.
 
 ```
 git rebase main
 ```
 
-**10.** Push the committed changes in your feature branch to your remote repo.
+**9.** Push the committed changes in your feature branch to your remote repo.
 
 ```
 git push -u origin <your_branch_name>
+(you can see your branch name after executing 8th step)
 ```
 
-**11.** To create a pull request, click on `compare and pull requests`.
+**10.** To create a pull request, click on `compare and pull requests`.
 
-**12.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**11.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-**13.** Click on `Create Pull Request`.
+**12.** Click on `Create Pull Request`.
 
 
-**14.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
+**13.** Woohoo! You have made a PR to the community-website :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 ### Semantic Commits
 

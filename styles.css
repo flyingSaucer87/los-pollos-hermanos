@@ -583,9 +583,9 @@ html {
 }
 
 #scroll-top a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  left: 14px;
+  top: 15px;
 }
 
 /*responsive*/
@@ -728,7 +728,7 @@ input[type="number"] {
 
   .sticky-top .container-fluid .navbar-toggler {
     position: fixed;
-    top: 25px;
+    top: 15px;
     right: 15px;
   }
 
@@ -904,5 +904,13 @@ input[type="number"] {
     display: block;
     margin-right: 0;
     font-weight: 600;
+  }
+}
+
+
+/* navbar reponsive  */
+@media (max-width:574px){
+  .navbar-brand,b{
+    font-size: 20px;
   }
 }

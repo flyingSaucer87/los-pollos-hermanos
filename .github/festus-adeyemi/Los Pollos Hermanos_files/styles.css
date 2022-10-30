@@ -243,13 +243,6 @@ ul {
   position: relative;
 }
 
-/* FOR FOOTER */
-
-.footer {
-  background-color: #24262b;
-  padding: 70px 0;
-}
-
 .footer-col {
   width: 25%;
   padding: 0 15px;

@@ -6,7 +6,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./Los Pollos Hermanos_files/css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="./Los Pollos Hermanos_files/styles.css">
+  <link rel="stylesheet" href="./aboutus.css" />
+
+
   <link rel="stylesheet" type="text/css" href="./Los Pollos Hermanos_files/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -72,52 +76,11 @@
   </div>
 
   <body onload="myFunction()" style="background-color: #c1ff5ecb">
-    <div id="loader"></div>
 
     <!--     navbar begins  -->
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
-      <div class="container-fluid">
-
-        <div class="header">
-          <a class="navbar-brand text-white" href="index.html">
-            <img class="logo" src="Los Pollos Hermanos_files/194763407-27a595b0-4361-42ca-b661-ba5d69dbb645.png"
-              alt="logo">
-            <b>Los Pollos Hermanos</b>
-          </a>
-        </div>
-        <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon text-white"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link act text-white text-lg" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-lg" aria-current="page" href="./menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-lg" href="./aboutus.html">About</a>
-            </li>
-            <li>
-              <a class="nav-link text-white text-lg" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex justify-content-center align-items-center" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <div class="btn btn-success">
-              <i class="fa fa-search"></i>
-            </div>
-          </form>
-        </div>
-      </div>
-    </nav>
+    <main-header></main-header>
     <!-- nav bar ends -->
+    
     <section id="carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -436,55 +399,77 @@
                               <a href="/contact.html" class="btn btn-primary">Contact us</a>
                             </div>
                         </div>
-                        <footer>
-                          <h5 class="footer-h5">Los Pollos Hermanos @2022. All rights reserved.</h5>
-                        </footer>
                       </section>
-                </section>
-    </section>
+                    </section>
+                  </section>
+                  
+                  
+          <!-- footer starts here  -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="">about us</a>
+              </li>
+              <li><a href="">our
+                  services</a></li>
+              <li><a href="">privacy
+                  policy</a></li>
+              <li><a href="">affiliate
+                  program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">shipping</a>
+              </li>
+              <li><a href="">returns</a>
+              </li>
+              <li><a href="">order
+                  status</a></li>
+              <li><a href="">payment
+                  options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="">Wraps</a></li>
+              <li><a href="">Pasta</a></li>
+              <li><a href="">Pizza</a></li>
+              <li><a href="">Chicken</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>        
+      </div>
+      <p class="credit">
+          Created by&nbsp;<a class="footer-link" href="#">Lakshya Agrawal</a>&nbsp; - &nbsp;All Rights Reserved &copy;<span id="current-year"></span>
+      </p>
+      </div>
+  </div> 
+  <!-- footer ends here  --> 
+   
 
-
-    <!-- footer section begins -->
-
-
-    <!--     footer section ends -->
-    <!-- Bottom to Top button  -->
-    <!-- Scrolling button starts -->
-
+    
     <script>
-      let mybutton = document.getElementById("scroll-top");
-      window.onscroll = function () { scrollFunction() };
-      function scrollFunction() {
-        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      function topFunction() {
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
+      
+      </script>
 
+      <script type="module" src="./main.js"></script>
     <!--scrolling button ends-->
 
-
-    <!--preloader starts-->
-    <script>
-      var myVar;
-
-      function myFunction() {
-        myVar = setTimeout(showPage, 1750);
-      }
-
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-      }
-    </script>
-
-    <script>
-      AOS.init();
-    </script>
   </body>
 
 </html>

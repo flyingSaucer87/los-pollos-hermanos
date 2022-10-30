@@ -245,9 +245,18 @@ ul {
 
 /* FOR FOOTER */
 
+.newsletter{
+  padding: 20px;
+}
+
+
 .footer {
   background-color: #24262b;
-  padding: 70px 0;
+  width: 100%;
+}
+
+.footer .container .row {
+  padding: 40px 0px;
 }
 
 .footer-col {

@@ -14,9 +14,8 @@ body {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: #fff url('assets/ChefLoading.gif') no-repeat center center;
+  background: #fff url("assets/ChefLoading.gif") no-repeat center center;
 }
-
 
 .card-img-top:hover {
   padding-left: 2px;
@@ -43,7 +42,14 @@ body {
   display: flex;
   right: 10px;
 }
-
+figcaption {
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5vh;
+  position: absolute;
+  left: 30vw;
+  top: 8cm;
+}
 .main h1 {
   color: #a92224;
   -webkit-text-stroke-width: 1px;
@@ -384,17 +390,16 @@ ul {
   list-style: none;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
-.footer-h5{
-  margin:0px;
+.footer-h5 {
+  margin: 0px;
   padding-bottom: 50px;
   text-shadow: #24262b;
   text-shadow: 2px 2px 4px #ffffff;
   color: #000000;
-
 }
 .footer-col {
   width: 25%;
@@ -569,7 +574,6 @@ html {
   align-items: center;
   transform: scale(0.9);
   transition: all 0.3s ease-in-out;
-
 }
 
 #scroll-top svg {

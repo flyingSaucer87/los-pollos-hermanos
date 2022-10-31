@@ -42,7 +42,14 @@ body {
   display: flex;
   right: 10px;
 }
-
+figcaption {
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5vh;
+  position: absolute;
+  left: 30vw;
+  top: 8cm;
+}
 .main h1 {
   color: #a92224;
   -webkit-text-stroke-width: 1px;
